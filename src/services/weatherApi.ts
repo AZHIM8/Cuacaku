@@ -1,4 +1,3 @@
-
 // API weatherapi.com menyediakan akses gratis dengan batas 1 juta panggilan per bulan
 const API_KEY = "b02b84c7e1154f77a9210654251603"; // API key dari weatherapi.com
 const BASE_URL = "https://api.weatherapi.com/v1";
@@ -49,3 +48,5 @@ export const fetchWeatherByCity = async (city: string): Promise<WeatherData> => 
     throw new Error("Terjadi kesalahan yang tidak diketahui.");
   }
 };
+
+

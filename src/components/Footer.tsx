@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           </a>
         </p>
         <p className="mt-1">
-          Aplikasi Cuaca Untuk Indonesia &copy; {new Date().getFullYear()}
+          Aplikasi Cuaca Untuk Indonesia Azhim &copy; {new Date().getFullYear()}
         </p>
       </div>
     </footer>
